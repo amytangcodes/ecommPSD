@@ -1,0 +1,108 @@
+body {
+	font-family: $secondary-font;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	background: $black;
+	color: $black;
+	max-width: 1925px;	
+	margin: 0 auto;
+	
+}
+
+.wrapper {
+	width:64%;
+	margin:0 auto;
+}
+
+h2,
+h3 {
+	padding-bottom: 15px;
+}
+
+h2 { 
+	font-size: 36px; 
+	font-weight: 600;
+}
+h3 { 
+	font-size: 20px; 
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: 12px;
+}
+
+.btnYellow {
+	background: $yellow;
+	width: 82px;
+	height: 16px;
+	padding: 10px 50px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	position: relative;
+    z-index:100;
+}
+
+.sectionHeader {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	// padding: 60px;
+	padding-top: 60px;
+	padding-bottom: 25px;
+	h4 {
+		padding-bottom: 5px;
+	}
+	h2 {
+		margin: 0;
+		padding: 0;
+		letter-spacing: 8px;
+	}
+}
+
+// Standard Colors
+// Offwhite Background
+
+section.collectionOne,
+section.collectionTwo,
+section.collectionThree {
+	background:$offwhite;
+}
+
+// White color
+
+header.header,
+section.customers,
+section.contact,
+footer.footer {
+	color: $white;
+}
+
+@media (max-width:960px) {
+	body {
+		background: tomato;
+	
+	}
+}
+
+@media (max-width:960px) {
+	.galleryLeft,
+	.galleryRight {
+		width: 100%;
+		flex-direction: column;
+	}
+}

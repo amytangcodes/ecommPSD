@@ -1,0 +1,1036 @@
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+audio, canvas, video {
+  display: inline-block; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+[hidden] {
+  display: none; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+a:focus {
+  outline: thin dotted; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+h1 {
+  font-size: 2em; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+b, strong {
+  font-weight: 700; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+dfn {
+  font-style: italic; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+small {
+  font-size: 80%; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+sup {
+  top: -0.5em; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+sub {
+  bottom: -0.25em; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+img {
+  border: 0; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+button, input {
+  line-height: normal; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+button[disabled], input[disabled] {
+  cursor: default; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+body, figure {
+  margin: 0; }
+
+/* line 2, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 4, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 6, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/normalize */
+* {
+  box-sizing: border-box; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+body {
+  font-family: 'Gudea', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: #070707;
+  color: #070707;
+  max-width: 1925px;
+  margin: 0 auto; }
+
+/* line 11, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+.wrapper {
+  width: 64%;
+  margin: 0 auto; }
+
+/* line 17, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+h2, h3 {
+  padding-bottom: 15px; }
+
+/* line 21, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+h2 {
+  font-size: 36px;
+  font-weight: 600; }
+
+/* line 25, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+h3 {
+  font-size: 20px; }
+
+/* line 29, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 35, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+a {
+  text-decoration: none; }
+
+/* line 39, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+img {
+  max-width: 100%; }
+
+/* line 43, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+p {
+  font-size: 12px; }
+
+/* line 47, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+.btnYellow {
+  background: #ffea00;
+  width: 82px;
+  height: 16px;
+  padding: 10px 50px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 100; }
+
+/* line 68, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+.sectionHeader {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 60px;
+  padding-bottom: 25px; }
+  /* line 76, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+  .sectionHeader h4 {
+    padding-bottom: 5px; }
+  /* line 79, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+  .sectionHeader h2 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 8px; }
+
+/* line 91, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+section.collectionOne, section.collectionTwo, section.collectionThree {
+  background: #E8E8E8; }
+
+/* line 100, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+header.header, section.customers, section.contact, footer.footer {
+  color: #ffffff; }
+
+@media (max-width: 960px) {
+  /* line 105, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+  body {
+    background: tomato; }
+ }
+
+@media (max-width: 960px) {
+  /* line 113, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/default */
+  .galleryLeft, .galleryRight {
+    width: 100%;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+ }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+header.header {
+  font-size: 10px; }
+  /* line 3, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+  header.header .wrapper {
+    margin-bottom: 40px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+/* line 11, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+.headerTop {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 480px) {
+    .headerTop {
+      width: 100%;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  /* line 18, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+  .headerTop .ship {
+    -webkit-flex: 5 0 auto;
+        -ms-flex: 5 0 auto;
+            flex: 5 0 auto; }
+    @media (max-width: 480px) {
+      .headerTop .ship {
+        width: 100%; } }
+  /* line 24, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+  .headerTop .login {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    text-align: center; }
+  /* line 28, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+  .headerTop .cart {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
+
+/* line 33, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+.headerBottom {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 36, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+  .headerBottom .column {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
+    /* line 38, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+    .headerBottom .column .one {
+      font-size: 9px;
+      color: blue; }
+      @media (max-width: 480px) {
+        .headerBottom .column .one {
+          display: none; } }
+    /* line 45, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+    .headerBottom .column .two {
+      text-align: center; }
+
+/* line 51, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+.column.two {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 56, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/1header */
+img.two {
+  width: 50px; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/2nav */
+nav.navBar {
+  background: #ffea00; }
+
+/* line 5, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/2nav */
+.hamburger {
+  display: none; }
+  @media (max-width: 480px) {
+    .hamburger {
+      width: 100%;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+
+/* line 13, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/2nav */
+.navigation {
+  height: 70px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 800; }
+  /* line 19, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/2nav */
+  .navigation li {
+    -webkit-flex: 2 0 auto;
+        -ms-flex: 2 0 auto;
+            flex: 2 0 auto;
+    list-style: none;
+    padding: 7px 35px; }
+    /* line 23, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/2nav */
+    .navigation li:hover {
+      background: #070707;
+      color: #ffea00; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+section.intro {
+  background: url(../images/background.jpg) no-repeat center;
+  background-size: cover;
+  height: 826px;
+  max-width: 100%; }
+  /* line 9, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+  section.intro .wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%; }
+
+/* line 15, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+.leftContainer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+  /* line 20, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+  .leftContainer h3 {
+    text-align: right; }
+
+/* line 26, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+.leftContainer, .rightContainer {
+  -webkit-flex: 1 0 50%;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%; }
+
+/* line 30, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+h1 {
+  font-size: 90px;
+  font-weight: 800;
+  letter-spacing: 20px;
+  margin: 0; }
+
+/* line 37, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+a {
+  padding: 20px 55px;
+  background: #ffea00;
+  color: #070707;
+  font-weight: 800; }
+  /* line 42, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/3intro */
+  a:hover {
+    background: #070707;
+    color: #ffea00; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+section.collectionOne {
+  padding-bottom: 50px; }
+
+/* line 5, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.galleryOne {
+  background: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%; }
+  /* line 9, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .galleryOne img {
+    height: 100%; }
+
+/* line 14, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.galleryLeft {
+  width: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+/* line 18, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.leftItems {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 21, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .leftItems .itemOne {
+    -webkit-flex: 2 0 auto;
+        -ms-flex: 2 0 auto;
+            flex: 2 0 auto;
+    position: relative; }
+    /* line 24, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+    .leftItems .itemOne .desOverlay {
+      position: absolute;
+      top: 10px;
+      margin: 10px 40px; }
+  /* line 31, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .leftItems .itemTwo {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    position: relative;
+    transition: all 1.5s; }
+    /* line 35, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+    .leftItems .itemTwo:hover > .saleOverlay {
+      background: #ffea00;
+      display: block; }
+
+/* line 42, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.rightItems {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 47, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .rightItems .itemThree, .rightItems .itemFour, .rightItems .itemFive {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    position: relative;
+    transition: all 1.5s; }
+    /* line 51, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+    .rightItems .itemThree:hover > .saleOverlay, .rightItems .itemFour:hover > .saleOverlay, .rightItems .itemFive:hover > .saleOverlay {
+      background: #ffea00;
+      display: block; }
+
+/* line 59, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.rightItems, .leftItems {
+  width: 50%; }
+
+/* line 63, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.saleOverlay {
+  text-align: center;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0; }
+  /* line 71, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .saleOverlay sup {
+    vertical-align: super;
+    font-size: 15px; }
+  /* line 75, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .saleOverlay h2 {
+    margin: 15px 0; }
+
+/* line 82, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.galleryRight {
+  width: 50%;
+  max-width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 87, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .galleryRight .galleryTop {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  /* line 91, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .galleryRight .galleryBottom {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
+
+/* line 97, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.productSix, .productSeven {
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  position: relative;
+  transition: all 1.5s; }
+  /* line 101, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .productSix:hover > .saleOverlay, .productSeven:hover > .saleOverlay {
+    background: #ffea00;
+    display: block; }
+
+/* line 107, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.productSeven {
+  width: 50%;
+  height: 50%; }
+  /* line 110, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .productSeven img {
+    max-width: 100%;
+    height: 100%; }
+
+/* line 116, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+.productEight {
+  position: relative; }
+  /* line 118, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .productEight .desOverlayBig {
+    position: absolute;
+    top: 50%;
+    height: 18em; }
+  /* line 124, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/4collectionOne */
+  .productEight img {
+    height: 100%;
+    width: 100%; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+section.collectionTwo {
+  padding-bottom: 80px; }
+  /* line 3, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  section.collectionTwo .wrapper {
+    margin-bottom: 10px; }
+  /* line 7, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  section.collectionTwo img:hover {
+    background: #ffea00; }
+
+/* line 12, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.dressGallery {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 15, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .dressGallery .dressGalleryTop {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  /* line 18, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .dressGallery .dressGalleryBottom {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+
+/* line 23, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.model {
+  margin: 10px; }
+
+/* line 27, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.modelImg {
+  position: relative;
+  transition: all 1.5s; }
+  /* line 30, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .modelImg .saleOverlay {
+    text-align: center;
+    padding-top: 300px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0; }
+  /* line 39, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .modelImg:hover > .saleOverlay {
+    background: #ffea00;
+    display: block; }
+
+/* line 45, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.itemDescription {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 52, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .itemDescription p {
+    margin: 0 auto;
+    padding: 0; }
+  /* line 56, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .itemDescription h3 {
+    margin: 0 auto; }
+  /* line 59, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .itemDescription .color {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding: 0; }
+
+/* line 66, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.swatch {
+  width: 10%;
+  padding: 8px 15px;
+  margin: 10px;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto; }
+
+/* line 73, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.swatch1 {
+  background: #323232; }
+
+/* line 76, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.swatch2 {
+  background: #534747; }
+
+/* line 79, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.swatch3 {
+  background: #534747; }
+
+/* line 82, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.swatch4 {
+  background: #cbbeaa; }
+
+/* line 85, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.swatch5 {
+  background: #E8E8E8; }
+
+/* line 88, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+.swatch6 {
+  background: #ffffff; }
+
+@media (max-width: 480px) {
+  /* line 94, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/5collectionTwo */
+  .dessGalleryTop, .dressGalleryBottom {
+    width: 100%;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+ }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/6customers */
+section.customers {
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 5, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/6customers */
+  section.customers .wrapper {
+    margin-bottom: 140px; }
+
+/* line 10, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/6customers */
+.feedback {
+  background: #ffea00;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px 30px;
+  color: #070707;
+  line-height: 30px;
+  border: 25px solid #070707; }
+
+/* line 20, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/6customers */
+.feedback blockquote {
+  text-transform: none; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+section.collectionThree {
+  padding: 80px 0; }
+  /* line 3, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+  section.collectionThree .wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    /* line 7, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+    section.collectionThree .wrapper .dressColumn {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-flex: 1 0 auto;
+          -ms-flex: 1 0 auto;
+              flex: 1 0 auto;
+      width: 33.33%; }
+      /* line 12, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+      section.collectionThree .wrapper .dressColumn h2 {
+        padding: 0 5%;
+        margin: 0; }
+      /* line 16, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+      section.collectionThree .wrapper .dressColumn .arrow {
+        padding: 0 5%; }
+
+/* line 23, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+.innerDressColumn {
+  background: #ffffff;
+  margin: 5%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  /* line 28, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+  .innerDressColumn .product {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    /* line 30, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+    .innerDressColumn .product img {
+      width: 68px;
+      height: 117px;
+      margin: 15px; }
+
+/* line 38, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+.itemDescription {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0;
+  text-align: left; }
+  /* line 44, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+  .itemDescription p {
+    margin-top: 15px; }
+  /* line 47, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+  .itemDescription h3 {
+    margin-top: 10px;
+    padding-bottom: 10px; }
+  /* line 52, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+  .itemDescription .color .swatch {
+    margin-left: 0;
+    margin-right: 10px; }
+
+@media (max-width: 480px) {
+  /* line 60, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/7collectionThree */
+  .collectionsThree {
+    width: 100%;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+ }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/8subscribe */
+section.subscribe {
+  background: #ffffff;
+  padding-bottom: 40px; }
+
+/* line 6, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/8subscribe */
+.emailAddress {
+  height: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 40px 20px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  /* line 14, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/8subscribe */
+  .emailAddress i {
+    border: 1px solid #070707;
+    background: #070707;
+    color: #ffffff;
+    padding: 30px;
+    font-weight: 100;
+    margin: 0; }
+  /* line 22, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/8subscribe */
+  .emailAddress form.email {
+    margin: 0;
+    width: 50%; }
+    /* line 25, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/8subscribe */
+    .emailAddress form.email input[placeholder] {
+      width: 100%;
+      background: #070707;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: 4px;
+      text-align: center;
+      padding: 28px 10px;
+      border: 1px solid #070707; }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+section.contact {
+  margin: 80px 0;
+  padding: 30px 0;
+  color: #ffffff; }
+  /* line 5, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  section.contact .wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  /* line 8, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  section.contact a {
+    background: #070707;
+    color: #ffffff;
+    padding: 0; }
+    /* line 12, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+    section.contact a:hover {
+      color: #ffea00; }
+  /* line 16, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  section.contact .btnYellow {
+    margin-bottom: 50px;
+    width: 63px;
+    height: 12px; }
+
+/* line 26, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+.quick-link, .recent-blogs, .tags, .find-us {
+  -webkit-flex: 1 0 25%;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%; }
+
+/* line 59, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+.quick-link {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%; }
+  /* line 63, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .quick-link a {
+    margin: 10px 0;
+    font-weight: 100;
+    transition: all 0.5s; }
+    /* line 67, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+    .quick-link a:hover {
+      padding-left: 15px;
+      margin: 0;
+      line-height: 14px; }
+    /* line 72, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+    .quick-link a:hover::before {
+      content: "-";
+      font-weight: 900;
+      font-size: 30px;
+      padding-right: 10px;
+      margin: 0; }
+
+/* line 82, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+.blogColumn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px; }
+  /* line 85, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .blogColumn img {
+    width: 85px;
+    height: 58px; }
+  /* line 89, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .blogColumn p {
+    width: 80%;
+    word-wrap: break-word;
+    margin: 10px;
+    line-height: 30px; }
+  /* line 95, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .blogColumn .blogHeader {
+    margin-bottom: 20px; }
+
+/* line 100, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+.btnOverlay {
+  display: none; }
+
+/* line 105, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+.btnTags li {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  background: #1d1d1d;
+  font-size: 10px; }
+
+/* line 116, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+.socialTags li {
+  padding: 8px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  border-radius: 50%;
+  float: left;
+  background: #1d1d1d; }
+
+/* line 128, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+.tweetTwo, .tweetOne {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 130, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .tweetTwo .tweetTitle, .tweetOne .tweetTitle {
+    width: 80%;
+    margin: 5px 0; }
+  /* line 136, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .tweetTwo h4, .tweetTwo p, .tweetOne h4, .tweetOne p {
+    margin: 4px; }
+  /* line 139, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .tweetTwo p, .tweetOne p {
+    text-transform: none;
+    font-size: 10px;
+    line-height: 25px; }
+
+@media (max-width: 480px) {
+  /* line 148, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/9contact */
+  .contact .wrapper {
+    width: 100%;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+ }
+
+/* line 1, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/footer */
+.footer {
+  font-weight: 200;
+  font-size: 11px; }
+  /* line 4, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/footer */
+  .footer .wrapper {
+    border-top: 1px solid #545454;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+
+/* line 9, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/footer */
+.copy {
+  margin-right: 50px;
+  -webkit-flex: 5 0 auto;
+      -ms-flex: 5 0 auto;
+          flex: 5 0 auto; }
+
+/* line 13, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/footer */
+.payment {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 15, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/footer */
+  .payment li {
+    height: 30px;
+    margin-top: 10px; }
+  /* line 19, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/footer */
+  .payment a {
+    background: #070707;
+    color: #ffffff;
+    margin: 0 5px;
+    padding: 0 5px; }
+    /* line 24, C:/Users/AMY/Documents/00_Development/01_Project/15-04-27_ecommerce/css/footer */
+    .payment a:hover {
+      color: #ffea00; }

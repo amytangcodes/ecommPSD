@@ -1,0 +1,47 @@
+section.intro {
+	background: url(../images/background.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 826px;
+	max-width: 100%;
+	.wrapper {
+		display: flex;
+		height: 100%;
+	}
+}
+
+.leftContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;	
+	h3 {
+		text-align: right;
+	}
+}
+
+.leftContainer,
+.rightContainer {
+	flex: 1 0 50%;
+}
+
+h1 {
+	font-size: 90px;
+	font-weight: 800;
+	letter-spacing: 20px;
+	margin: 0;
+}
+
+a {
+	padding: 20px 55px;
+	background: $yellow;
+	color: $black;
+	font-weight: 800;
+	&:hover {
+		background: $black;
+		color: $yellow;
+	}
+}
+

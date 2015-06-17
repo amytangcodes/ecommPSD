@@ -1,0 +1,24 @@
+section.customers {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	.wrapper {
+		margin-bottom: 140px;
+	}
+}
+
+.feedback {
+	background: $yellow;
+	width: 70%;
+	margin: 0 auto;
+	padding: 40px 30px;
+	color: $black;
+	line-height: 30px;	
+	border: 25px solid $black;
+}
+
+.feedback blockquote {
+	text-transform: none;
+}
+
+

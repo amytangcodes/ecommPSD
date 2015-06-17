@@ -1,0 +1,28 @@
+.footer {
+	font-weight: 200;
+	font-size: 11px;
+	.wrapper {
+		border-top: 1px solid #545454;
+		display: flex;
+	}
+}
+.copy {
+	margin-right: 50px;
+	flex: 5 0 auto;
+}
+.payment {
+	display: flex;
+	li {
+		height: 30px;
+		margin-top: 10px;
+	}
+	a {
+		background: $black;
+		color: $white;
+		margin: 0 5px;
+		padding: 0 5px;
+		&:hover {
+			color: $yellow;
+		}
+	}
+}

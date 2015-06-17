@@ -1,0 +1,154 @@
+section.contact {
+	margin: 80px 0;
+	padding: 30px 0;
+	color: $white;
+	.wrapper {
+		display: flex;
+	}
+	a {
+		background: $black;
+		color: $white;
+		padding: 0;
+		&:hover {
+			color: $yellow;
+		}
+	}
+	.btnYellow {
+		margin-bottom: 50px;
+		width: 63px;
+		height: 12px;
+	}
+}
+
+.quick-link,
+.recent-blogs,
+.tags,
+.find-us {
+	flex: 1 0 25%;
+}
+
+// .find-us {
+// 	.line {
+// 		height: 2px;
+// 		width: 60px;
+// 		margin-bottom: 3px;
+// 		margin-left: 20px;
+// 		border-bottom: 2px solid $color-3;
+// 		transform: rotate(-50deg);
+// 		position: absolute;
+		// .btnYellow {
+		// 	z-index: 9;
+		// 	transform: rotate(50deg);
+		// 	margin-top: 8px;
+		// 	margin-left: -20px;
+		// }	
+// 	}
+// }
+
+	//  	width: 50px;
+ //        height: 50px;
+ //        border-bottom: 2px solid black;
+ //        transform:rotate(-50deg);
+ //        position: absolute;
+ //        bottom: -3px;
+ //        left: -4px;
+ //        z-index: 0;
+	// }
+
+
+.quick-link {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	a {
+		margin: 10px 0;
+		font-weight: 100;
+		transition: all 0.5s;
+		&:hover {
+			padding-left: 15px;
+			margin: 0;
+			line-height: 14px;
+		}
+		&:hover::before {
+			content: "-";
+			font-weight: 900;
+			font-size: 30px;
+			padding-right: 10px;
+			margin: 0;
+		}
+	}
+}
+
+.blogColumn {
+	display: flex;
+	height: 100px;
+	img {
+		width: 85px;
+		height: 58px;
+	}
+	p {
+		width: 80%;
+		word-wrap: break-word;
+		margin: 10px;
+		line-height: 30px;
+	}
+	.blogHeader {
+		margin-bottom: 20px;
+	}
+}
+
+.btnOverlay {
+	display: none;
+}
+
+.btnTags {
+	li {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		padding: 10px 25px;
+		background: #1d1d1d;
+		font-size: 10px;
+	}
+}
+
+.socialTags {
+	li {
+		padding: 8px;
+		margin-right: 10px;
+		margin-bottom: 20px;
+		margin-top: 70px;
+		border-radius: 50%;
+		float: left;
+		background: #1d1d1d;
+	}
+}
+
+.tweetTwo,
+.tweetOne {
+	display: flex;
+	.tweetTitle {
+		width: 80%;
+		margin: 5px 0;
+
+	}
+	h4,
+	p {
+		margin: 4px;
+	}
+	p {
+		text-transform: none;
+		font-size: 10px;
+		line-height: 25px;
+	}
+}
+
+@media (max-width: 480px) {
+	.contact {
+		.wrapper {
+			width: 100%;
+			flex-direction: column;
+		}
+	} 
+
+}

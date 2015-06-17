@@ -1,0 +1,40 @@
+section.subscribe {
+	background: $white;
+	padding-bottom: 40px;
+}
+
+.emailAddress {
+	height: 0px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding: 40px 20px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	i {
+		border: 1px solid $black;
+		background: $black;
+		color: $white;
+		padding: 30px;
+		font-weight: 100;
+		margin: 0;
+	}
+	form.email {
+		margin: 0;
+		width: 50%;
+		input[placeholder] {
+			// font-size: 12px;
+			width: 100%;
+			background: $black;
+			color: $white;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: 4px;
+			text-align: center;
+			// border:none;
+			// padding: 28px 250px;
+			padding: 28px 10px;
+			border: 1px solid $black;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+nav.navBar {
+	background: $yellow; 	
+}
+
+.hamburger {
+	display: none;
+	@media (max-width: 480px) {
+	    width: 100%;
+	    flex-direction: column;
+		
+	}
+}
+.navigation {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 800;
+	li {
+		flex: 2 0 auto;
+		list-style: none;
+		padding: 7px 35px;	
+		&:hover {
+			background: $black;
+			color: $yellow;	
+		}	
+	}
+}
+

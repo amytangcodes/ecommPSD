@@ -1,0 +1,130 @@
+section.collectionOne {
+	padding-bottom: 50px;
+}
+
+.galleryOne, {
+	background: white;
+	display:flex;
+	width: 100%;
+	img {
+		height: 100%;
+	}
+}
+
+	.galleryLeft {
+		width: 50%;
+		display:flex;
+	}
+		.leftItems {
+			display: flex;
+			flex-direction:column;
+			.itemOne {
+				flex: 2 0 auto;
+				position: relative;
+				.desOverlay {
+					position: absolute;
+					top: 10px;
+					margin: 10px 40px;
+				}
+			}
+
+			.itemTwo {
+				flex: 1 0 auto;
+				position: relative;
+				transition: all 1.5s;
+				&:hover > .saleOverlay {
+					background: $yellow;
+					display: block;
+				}
+			}
+		}	
+
+		.rightItems {
+			display: flex;
+			flex-direction:column;	
+			.itemThree,
+			.itemFour,
+			.itemFive {
+				flex: 1 0 auto;
+				position: relative;
+				transition: all 1.5s;
+				&:hover > .saleOverlay {
+					background: $yellow;
+					display: block;
+				}
+			}		
+		}
+
+.rightItems,
+.leftItems {
+	width: 50%;
+}
+
+.saleOverlay {
+	text-align: center;
+	padding-top: 100px;
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	sup { 
+	    vertical-align: super;
+	    font-size: 15px;
+	}
+	h2 {
+		margin: 15px 0;
+	}
+
+
+}
+
+.galleryRight {
+	width: 50%;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	.galleryTop {
+		flex: 1 0 auto;
+		display: flex;
+	}
+	.galleryBottom {
+		flex: 1 0 auto;
+	}
+}
+
+.productSix,
+.productSeven {
+	flex: 1 0 auto;
+	position: relative;
+	transition: all 1.5s;
+	&:hover > .saleOverlay {
+		background: $yellow;
+		display: block;
+	}
+}
+
+.productSeven {
+	width: 50%;
+	height: 50%;
+	img {
+		max-width: 100%;
+		height: 100%;
+	}
+}
+
+.productEight {
+	position: relative;
+	.desOverlayBig {
+		position: absolute;
+		top: 50%;
+		// width:30em;
+		height:18em;
+	}
+	img {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+
